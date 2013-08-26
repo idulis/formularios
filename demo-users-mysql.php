@@ -14,7 +14,7 @@
 		if ($pass === $rpass) {
 			require('connected_db.php');
 			$pass = md5($pass);
-			mysql_query('INSERT INTO registros_users VALUES("","$nombreUser","$nick","$email","$pass")');
+			mysql_query("INSERT INTO registros_users VALUES('','$nombreUser','$nick','$email','$pass')");
 			mysql_close($cnx);
 			echo "Se ha registrado correctamente !!!";
 		}else{
