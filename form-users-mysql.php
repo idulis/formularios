@@ -15,6 +15,10 @@
 					<div class="controls">
 						<input type="text" name="nombre" class="input-xlarge" id="input01">
 					</div><br>
+					<label class="control-label" for="input01">Su nick</label>
+					<div class="controls">
+						<input type="text" name="nick" class="input-xlarge" id="input01">
+					</div><br>
 					<label class="control-label" for="input01">Su email</label>
 					<div class="controls">
 						<input type="text" name="email" class="input-xlarge" id="input01">
